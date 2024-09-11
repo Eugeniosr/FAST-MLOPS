@@ -43,7 +43,7 @@ jobs:
 
   deploy:
     runs-on: ubuntu-latest
-    needs: build-images
+    needs: copy-files
     steps:
 
     - name: Deploy to server
