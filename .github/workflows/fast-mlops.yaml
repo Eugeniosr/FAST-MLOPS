@@ -61,4 +61,4 @@ jobs:
           # docker pull ${{ secrets.CONTAINER_REGISTRY_ENDPOINT }}/groupe-2/scheduler:latest
           docker-compose build 
           docker-compose up -d
-          echo 'play boy'
+          echo 'GOOD JOBS'
